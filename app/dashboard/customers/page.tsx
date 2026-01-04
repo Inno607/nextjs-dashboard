@@ -2,8 +2,9 @@
 
 //     return <p>Custmomer Page</p>;
 // }
+"use client";
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
  
 export default function Page() {
   const [data, setData] = useState(null)
