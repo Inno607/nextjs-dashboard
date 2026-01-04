@@ -24,8 +24,7 @@ export default function Page() {
  
   return (
     <div>
-      <h1>{data.name}</h1>
-      <p>{data.bio}</p>
+      <p>{data}</p>
     </div>
   )
 }
